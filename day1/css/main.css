@@ -1,0 +1,36 @@
+body {
+    background-color: #333;
+    color: white;
+    margin: 10px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.door-container {
+    text-align: center;
+}
+
+.door {
+    display: inline;
+    padding: 25px;
+}
+
+.video-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.link {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: orange;
+}
+
+a:hover, a:active {
+    color: darkorange;
+}
+
