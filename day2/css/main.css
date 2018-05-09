@@ -1,0 +1,15 @@
+body{
+    background-color: gainsboro;
+}
+
+.center {
+    text-align: center;
+    margin: 100px;
+}
+
+#btn-random-bg-color {
+    font-size: 50px;
+    background-color: brown;
+    color: aliceblue;
+    font-family: 'Permanent Marker', cursive;
+}
