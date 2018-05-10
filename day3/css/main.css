@@ -1,0 +1,144 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+}
+
+.workspace {
+    margin: 0px auto;
+    padding: 50px;
+    border: 1px solid grey;
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+    background-color: antiquewhite;
+}
+
+.palette {
+    width: 100px;
+    display: inline-block;
+    padding-bottom: 70px;
+}
+
+.color {
+    display: block;
+    border: 1px solid grey;
+    width: 70px;
+    height: 70px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.cell {
+    cursor: pointer;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.canvas {
+    border: 1px solid black;
+    height: 100%;
+    width: 500px;
+    margin: 0 0 0 50px;
+    box-sizing: border-box;
+    display: inline-block; 
+    background-color: white;   
+}
+
+.border-top {
+    border-top: 10px solid black;
+}
+
+.border-bottom {
+    border-bottom: 10px solid black;
+}
+
+.border-left {
+    border-left: 10px solid black;
+}
+
+.border-right {
+    border-right: 10px solid black;
+}
+
+.row1 {
+    width: 100%;
+    height: 70%;
+    box-sizing: inherit;
+}
+
+.row1-column1 {
+    box-sizing: inherit;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+}
+
+.row1-column2 {
+    box-sizing: inherit;
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+}
+
+.row1-column1-up {
+    box-sizing: inherit;
+    width: 100%;
+    height: 50%;
+}
+
+.row1-column1-down {
+    box-sizing: inherit;
+    width: 100%;
+    height: 50%;
+}
+
+.row2 {
+    width: 100%;
+    height: 30%;
+    box-sizing: inherit;
+}
+
+.row2-column1 {
+    box-sizing: inherit;
+    display: inline-block;
+    width: 20%;
+    height: 100%;  
+}
+
+.row2-column2 {
+    box-sizing: inherit;
+    display: inline-block;
+    width: 65%;
+    height: 100%;  
+}
+
+.row2-column3 {
+    box-sizing: inherit;
+    display: inline-block;
+    width: 15%;
+    height: 100%;  
+}
+
+.row2-column3-up {
+    box-sizing: inherit;
+    height: 50%;
+    width: 100%;
+}
+
+.row2-column3-down {
+    box-sizing: inherit;
+    width: 100%;
+    height: 50%;  
+}
