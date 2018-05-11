@@ -1,0 +1,32 @@
+body {
+    background-color: lightgray;
+    padding: 100px;
+}
+
+.space {
+    margin: 800px;
+}
+
+.tip {
+    color: antiquewhite;
+}
+
+.top {
+    position: fixed;
+    top: 200px;
+}
+
+.message {
+    font-size: 30px;
+    font-family: "Lucida Console", Monaco, monospace;
+    width: 750px;
+}
+
+
+.name {
+    width: 750px;
+    text-align: right;
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
