@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;;
+}
+
+header a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: darkgrey;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+#more-drop-shadow {
+    height: 60vh;
+    min-height: 300px;
+    cursor: pointer;
+}
+
+.quotes {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.quotes .message {
+    text-align: center;
+}
+
+.quotes .name {
+    text-align: right;
+}
+
