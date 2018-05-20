@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 50px;
+    min-width: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #46B29D;
+}
+
+.container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-container {
+    width: 350px;
+    height: 400px;
+    text-align: center;
+}
+
+.msg-container {
+    width: 200px;
+    font-size: 35px;
+    margin-top:150px;
+    color: #DE5B49;
+}
+
+.name {
+    border-bottom: 2px solid #E37B40;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+img {
+    margin: 80px auto;
+}
+
+.button {
+    width: 100px;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #E37B40;
+    color: white;
+    font: bolder;
+    outline: none;
+}
+
+.shake {
+    animation: shake 0.4s infinite linear;
+}
+
+@keyframes shake {
+    25% {transform: translateY(-20px)}
+    75% {transform: translateY(20px)}
+}
