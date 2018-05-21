@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    padding-top: 30px;
+}
+
+body {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    background-color: #FFFAF6;
+    font-size: 25px;
+    color: #302416;
+    text-align: center;
+    line-height: 2;
+}
+
+#message {
+    height: 150px;
+    margin: 50px;
+    font-size: 30px;
+}
+
+#habit {
+    width: 300px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+button {
+    background: #6465E6;
+    font-size: 20px;
+    padding: 8px 14px;
+    border-radius: 3px;
+    color: #FFFAF6;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+button:hover {
+    background: rgb(64, 64, 231, 0.7);
+}
+
+button:active {
+    background: rgb(64, 64, 231);
+}
+
+input {
+    outline: none;
+    border-radius: 3px;
+    border-color: #C6CCCC;
+}
+
+input:focus {
+    border-color: rgba(100, 100, 230, 0.582);    
+}
+
