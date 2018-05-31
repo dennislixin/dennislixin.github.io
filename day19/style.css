@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: black;
+    overflow: hidden;    
+}
+
+.grow {
+    position: absolute;
+    animation: grow 2s;
+}
+
+@keyframes grow {
+    from {transform: scale(1); opacity: 1;}
+    to {transform: scale(5); opacity: 0;}
+}
