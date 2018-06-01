@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F5F1D5;
+    color: #1B3440;
+    overflow: hidden;    
+}
+
+header {
+    background-color: rgb(242, 132, 92);
+    font-size: 20px;  
+    padding: 5px 15px;
+    font-weight: bolder;
+    color: #1B3440;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#message {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+textarea {
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 600px;
+    margin: 20px auto;
+    display: block;
+    background-color: rgb(242, 132, 92);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+ 
+button:active {
+    background-color: rgb(243, 118, 73);
+}
+
+.moveup {
+    animation: moveup 80s linear;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+
+.prompt {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+
+@keyframes moveup{
+    from {top: 50%;}
+    to {top: -1000%;}
+}
