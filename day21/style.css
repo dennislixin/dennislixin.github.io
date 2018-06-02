@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: burlywood;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+h1 {
+    margin: 20px;
+}
+h2 {
+    font-size: 20px;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    margin: 50px 20px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(165, 42, 42, 0.849);
+}
+
+button:active {
+    background-color: rgb(189, 22, 22);
+}
+
+#win, #fail {
+    display: none;
+}
+
+#game {
+    font-size: 0;
+    margin: 100px auto;
+    display: none;
+}
+
+#start {
+    display: inline-block;
+    background-color: red;
+    border-radius: 50% 0 0 50%;
+}
+
+#end {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 0 50% 50% 0;    
+}
+
+#path {
+    display: inline-block;
+    background-color: white;
+}
+
+#all-win{
+    display: none;
+}
