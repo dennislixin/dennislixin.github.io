@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #d2fffa;
+}
+
+header {
+    padding: 5px 20px 0 20px;
+    border-bottom: 3px solid rgb(0, 151, 134);
+    background-color: white;
+}
+
+#start-screen {
+    text-align: center;
+
+}
+
+.message {
+    margin: 50px 10px;
+}
+
+.message p{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 151, 134);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#play-screen {
+    text-align: center;
+    display: none;
+}
+
+#play-screen .message {
+    height: 6em;
+}
+
+#play-screen form {
+    margin: 30px 0;
+}
+#play-screen button {
+    border-radius: 0 5px 5px 0;
+    font-size: 1em;
+}
+
+#play-screen input {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 20em;
+}
+
+.score-container {
+    color: white;
+    float: right;
+    background-color: crimson;
+    font-size: 1em;
+    width: 10em;
+    padding: 0.5em;
+    margin-right: 20vw;
+}
+
+#question {
+    background-color: crimson;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 40px;
+    letter-spacing: 0.3em;
+    padding: 0.5em;
+}
+
+.clear {
+    clear: both;
+}
