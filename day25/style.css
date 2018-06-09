@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    padding: 30px;
+    background-color: rgb(1, 27, 27);
+    box-sizing: border-box;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.row > div {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.top-left {
+    border-color: black;
+    border-style: solid;
+    border-top-width: 30px; 
+    border-right-width: 15px; 
+    border-bottom-width: 15px; 
+    border-left-width: 30px; 
+    border-radius: 100% 0 0 0;
+    overflow: hidden;
+}
+
+.top-right {
+    border-color: black;
+    border-style: solid;
+    border-top-width: 30px; 
+    border-right-width: 30px; 
+    border-bottom-width: 15px; 
+    border-left-width: 15px; 
+    border-radius: 0 100% 0 0;
+}
+
+.bottom-left {
+    border-color: black;
+    border-style: solid;
+    border-top-width: 15px; 
+    border-right-width: 15px; 
+    border-bottom-width: 30px; 
+    border-left-width: 30px; 
+    border-radius: 0 0 0 100%;
+}
+
+.bottom-right {
+    border-color: black;
+    border-style: solid;
+    border-top-width: 15px; 
+    border-right-width: 30px; 
+    border-bottom-width: 30px; 
+    border-left-width: 15px; 
+    border-radius: 0 0 100% 0;
+}
+
+.center {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.glow-red {
+	background-color: #FFC2A6;
+}
+
+.glow-green {
+	background-color: #59CF51;
+}
+
+.glow-yellow {
+	background-color: #FFE8A6;
+}
+
+.glow-blue {
+	background-color: #A9CBFF;
+}
+
+
