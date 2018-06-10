@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(229, 226, 226);
+    overflow: hidden;
+}
+
+.button-container {
+    margin: 50px 30px;
+
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: rgb(178, 178, 178);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover#water {
+    background-color: blue;
+    color: white;
+}
+
+button:hover#love {
+    background-color: red;
+    color: white;
+}
+
+button:hover#bacon {
+    background-color: darkred;
+    color: white;
+}
+
+.cloud-container {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 100px);
+}
+
+.cloud {
+	position: relative;
+	margin-top: 120px;
+	width: 370px;
+	height: 120px;
+	border-radius: 100px;
+	
+    background: linear-gradient(to bottom, #A6ADA7, #737A74);
+}
+
+.cloud::after, .cloud::before {
+	content: '';
+    position: absolute;
+    background: #A6ADA7;    
+	z-index: -1;
+}
+
+.cloud::after {
+	width: 100px;
+	height: 50px;
+	top: -50px;
+	left: 55px;
+	border-radius: 50px 50px 0 0;
+}
+
+.cloud::before {
+	width: 180px;
+	height: 90px;
+	top: -90px;
+	right: 55px;
+	border-radius: 180px 180px 0 0;
+}
+
+.top {
+    display: inline;
+}
+
+.bottom {
+    display: block;
+}
+
+#drop-container {
+    position: absolute;
+    bottom: 150px;
+}
+
+.drop {
+	position: absolute;
+	top: 60px;	
+	z-index: -1;
+}
+
+.rain {
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+	border-top-right-radius: 0;
+	background-color: #105570;
+	transform: rotate(-45deg);
+}
+
+.animate {
+	animation: falling 4.5s infinite ease-in;	
+}
+
+.heart {
+    width: 10px;
+    height: 9px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 5px;
+    top: 0;
+    width: 5px;
+    height: 8px;
+    background: #fa3c88;
+
+    
+    border-radius: 5px 5px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+}
+
+@keyframes falling {
+	0% {top: 60px;}
+	97% {opacity: 1}
+	100% {top: 1500px; opacity: 0}
+}
