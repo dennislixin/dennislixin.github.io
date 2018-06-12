@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    overflow: hidden;
+    text-align: center;
+}
+
+#modal {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color: #BDC3C7;
+	z-index: 500;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 30px 0 40px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom:  20px;
+}
+
+h3 {
+	margin: 100px 200px 0;
+	font-size: 20px;
+}
+
+button {
+    border: none;
+    height: 60px;
+    width: 180px;
+    margin-top: 50px;
+    font-size: 40px;
+    background-color: #E74C3C;
+    color: #ECF0F1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.counter-container {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 10vh auto;
+}
+
+#counter {
+	position: relative;
+	margin: auto;
+	padding-top: 150px;
+	font-size: 200px;
+	z-index: 400;
+}
+.pie {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    border: 20px solid rgba(68, 0, 255, 0.664);
+    border-right: none;
+    transform-origin: 100% 50%;
+    z-index: 10;
+}
+
+.spinner-animate {
+    animation: animate-rotate 30s linear;
+}
+
+#filler {
+    transform: rotate(180deg);
+}
+
+.filler-animate {
+    animation: animate-opacity 15s steps(1, end);
+}
+
+#mask {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: aliceblue;
+    z-index: 100;
+    opacity: 1;
+}
+
+.mask-animate {
+    animation: animate-opacity-reverse 15s steps(1, end) forwards;
+}
+
+@keyframes animate-rotate {
+    from {transform: rotate(0)}
+    to {transform: rotate(360deg)}
+}
+
+@keyframes animate-opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes animate-opacity-reverse {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
